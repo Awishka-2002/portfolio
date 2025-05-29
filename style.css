@@ -757,7 +757,7 @@ footer {
     flex-direction: column-reverse;
     padding: 20px 10px;
     text-align: center;
-    margin-top: 160px;
+    margin-top: 90px;
   }
 
   .intro h1 {
@@ -777,8 +777,8 @@ footer {
   }
 
   .hero-image img {
-    width: 100%;
     max-width: 100%;
+   
   }
 
   .hero button {
@@ -809,7 +809,7 @@ footer {
 
   model-viewer {
     width: 80%;
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
   }
 }
@@ -836,8 +836,9 @@ footer {
   }
 
   model-viewer {
-    width: 50%;
-    max-width: 350px;
+    width: 80%;
+    max-width: 300px;
+     max-height: 300px;
   }
 }
 /* Tablet Devices (max-width: 1024px) */
@@ -922,7 +923,8 @@ footer {
   }
 
   .chart-img {
-    width: 50%;
+    width: 100%;
+    max-width: 250px;
   }
 
   .certificate-item img {
@@ -932,6 +934,11 @@ footer {
   .download-btn {
     padding: 8px 14px;
     font-size: 14px;
+  }
+   model-viewer {
+    width: 50%;
+    max-width: 200px;
+     max-height: 200px;
   }
 }
 
