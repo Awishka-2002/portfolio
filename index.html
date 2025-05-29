@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Awishka Sevmini | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="social-icons">
+          <a href="https://web.facebook.com/profile.php?id=100088144526473" target="_blank" aria-label="Facebook">
+            <img src="assets/facebook-app-symbol.png" alt="Facebook"  />
+          </a>
+          <a href="https://www.instagram.com/awishka_sevmini?igsh=MThweHRzdXRkMGRyag==" target="_blank" aria-label="Instagram">
+            <img src="assets/instagram (1).png" alt="Instagram"  />
+          </a>
+          <a href="https://www.linkedin.com/in/awishka-sevmini-4413a233a/" target="_blank" aria-label="LinkedIn">
+            <img src="assets/linkedin-logo.png" alt="LinkedIn"  />
+          </a>
+          <a href="https://github.com/Awishka-2002" target="_blank" aria-label="GitHub">
+             <img src="assets/github.png" alt="GitHub" />
+          </a>
+          
+      </div>
+    </div>
+
+    <div class="logo-menu">
+  <div class="logo">
+    <img src="assets/logo-transparent.png" alt="Logo" />
+  </div>
+
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="main-nav" id="main-nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Hire Me</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+  </header>
+
+  <section class="hero">
+    <div class="intro">
+      <h1><span class="greeting">Hello,</span>I'm <span class="highlight">Awishka</span><span class="highlight2"> Sevmini.</span> </h1>
+      <p>Aspiring UI/UX Designer & Front-End Developer passionate about <br> user-centered design and clean code.</p><br><br>
+      <a href="#projects"><button>My Work</button></a>
+    </div>
+    <div class="hero-image">
+      <img src="assets/my.svg" alt="Illustration of Awishka" />
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+  <h1>About Me</h1>
+  <div class="about-container">
+    <!-- 3D Character -->
+    <div class="about-visual">
+        <model-viewer src="assets/3d.glb" alt="3D Character"
+            camera-controls
+            disable-zoom
+            disable-pan
+            disable-tap
+            camera-orbit="90deg 75deg 2.5m"
+            shadow-intensity="1"
+            interaction-prompt="none"
+            style="width: 500px; height: 500px;">
+        </model-viewer>
+    </div>
+
+    <!-- Introduction Text -->
+    <div class="about-content">
+      <p>
+        I'm a detail-oriented <span class="highlight3">UI/UX designer</span> and <span class="highlight3">front-end developer </span>with a passion for creating beautiful, functional digital products. With a solid foundation in both design and development, I build seamless user experiences that balance aesthetics and usability.
+      </p>
+    </div>
+  </div>
+
+  <section class="skills-intro" id="skills">
+  <h3 class="section-title">What I Work With</h3>
+
+  <div class="skills-container">
+    <!-- Left: Skills & Tools -->
+    <div class="skills-left">
+      <h4>Skills & Tools</h4>
+      <div class="skill-tags">
+        <span class="tag">Wireframing </span>
+        <span class="tag">UI/UX Design</span>
+        <span class="tag">Prototyping</span>
+        <span class="tag">User Research</span>
+        <span class="tag">Usability Testing</span>
+        <span class="tag">HTML/CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">React</span>
+        <span class="tag">Figma</span>
+        <span class="tag">Adobe Illustrator</span>
+        <span class="tag">Problem Solving</span>
+        <span class="tag">Creative Thinking</span>
+        <p>I enjoy blending creativity with structure. <br>Here are the tools and design<br>skills I use daily to build user-first experiences.</p>
+      </div>
+    </div>
+
+    <!-- Right: Pie Chart -->
+    <div class="skills-right">
+      <img src="assets/Skill.png" alt="Skill" class="chart-img" />
+    </div>
+  </div>
+</section>
+
+  <div class="education-section" >
+  <h3 class="edusection-title">Education & Certifications</h3>
+
+  <div class="education-content">
+    <!-- Left: University Info -->
+    <div class="education-left">
+      <h4>BSc (Hons) Sofware Enginnering</h4>
+      <p><strong>Cinec Campus</strong><br>
+      Malabe, Sri Lanka<br>
+      <span class="edu-year">2022 – 2026 (Present)</span></p>
+
+      <p class="edu-p">
+        My university journey has equipped me with hands-on experience in UI/UX design, frontend development, and academic projects like HRM systems and e-commerce platforms. I’ve also collaborated in team projects using tools like Figma, React, and Flutter.
+      </p>
+      <div class="model-viewer-container">
+  <model-viewer 
+    src="assets/my-model.glb" 
+    alt="University Project Model" 
+    auto-rotate 
+    disable-zoom
+    camera-controls 
+    background-color="#ffffff"
+    style="width: 100%; height: 300px;">
+  </model-viewer>
+
+  <a href="assets/Awishka Sevmini ( Resume) .pdf" download class="download-btn" title="Download cv">
+    Download Resume 
+  </a>
+</div>
+
+    </div>
+
+    <!-- Right: Certifications with images -->
+<div class="education-right">
+  <h4>Certifications</h4>
+  <div class="certificate-list">
+
+    <div class="certificate-item">
+      <img src="assets/google-ux.png" alt="Google UX Design Certificate">
+      <p>Google UX Design Certificate</p>
+    </div>
+
+    <div class="certificate-item">
+      <img src="assets/Coursera .jpg" alt="Responsive Web Design – freeCodeCamp">
+      <p>Introduction to front-end development – Coursera</p>
+    </div>
+
+
+  </div>
+</div>
+
+  </div>
+</div>
+
+</section>
+
+
+  <section class="my-work" id="projects">
+  <h1 >My Work</h1>
+
+  <div class="projects-scroll-container">
+    <div class="projects-track">
+      
+      <!-- Project Card 1 -->
+      <div class="project-card">
+        <img src="assets/books.svg" alt="Online Bookshop Website">
+        
+          <h4>Online Bookshop Website</h4>
+      
+        <p>A modern, responsive **online bookshop platform** built with React.js and Node.js. It features real-time book data via API integration, secure user login, and a smooth shopping experience. This project showcases my skills in frontend design, backend logic, and seamless UI/UX flow.
+        </p>
+        <button class="view-project-btn" data-github="https://github.com/Awishka-2002/Online-Bookshop/">View Project</button>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card">
+        <img src="assets/hotels.svg" alt="Hotel Management System">
+        
+          <h4>Hotel Management System</h4>
+        
+        <p>A team-developed hotel management web system using PHP, MySQL, HTML, and JavaScript, featuring room booking, user registration, billing, meal selection, and admin controls. Showcases collaboration and my contribution to creating user-friendly, functional modules.</p>
+        <button class="view-project-btn" data-github="https://www.linkedin.com/posts/awishka-sevmini-4413a233a_webdevelopment-hotelmanagement-fullstackdevelopment-activity-7311366871528722433-bPvg?utm_source=share&utm_medium=member_android&rcm=ACoAAFUhffEBWihe7MdDplDlxwRFWSikLE5-Qjs">View Project</button>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="project-card">
+        <img src="assets/GAME.svg" alt="The Great Jerry Hunt">
+        
+          <h4>The Great Jerry Hunt</h4>
+        
+        <p>A fun and interactive browser-based game inspired by classic cartoon chases. Built using HTML, CSS, and JavaScript, this project highlights my creative approach to front-end development and animation. Players guide Jerry through a series of obstacles, making for an entertaining and responsive gameplay experience.</p>
+        <button class="view-project-btn" data-github="https://www.linkedin.com/posts/awishka-sevmini-4413a233a_gamedevelopment-javascript-frontend-activity-7311372996294701057-LNeo?utm_source=share&utm_medium=member_android&rcm=ACoAAFUhffEBWihe7MdDplDlxwRFWSikLE5-Qjs">View Project</button>
+      </div>
+
+      <!-- Project Card 4 -->
+      <div class="project-card">
+        <img src="assets/HR.svg" alt="Human Resource Management System">
+        
+          <h4>HR Management System</h4>
+        
+        <p>A collaborative group project focused on developing a role-based HRM web application. Built with PHP and MySQL, it enables secure login, employee performance tracking, and attendance management. This project highlights our teamwork, backend logic, and practical use of databases in a real-world scenario</p>
+        <button class="view-project-btn" data-github="https://github.com/Awishka-2002/HR-Management-system">View Project</button>
+      </div>
+
+      <!-- Project Card 5 -->
+      <div class="project-card">
+        <img src="assets/SHOOL.svg" alt="Tuition Management System">
+        
+          <h4>Tuition Management System</h4>
+        
+        <p>A group mobile app project for our Mobile Computing course, featuring UI/UX design with Figma and development in Flutter. It includes class scheduling, registration, payments, and attendance tracking, with a clean, responsive interface for students and tutors.
+
+        </p>
+        <button class="view-project-btn" data-github="https://www.figma.com/proto/BX8lwOD1MlJ6v9VOPafS7K/Nenekra?page-id=0%3A1&team_id=1443829360333767894&node-id=17-671&starting-point-node-id=17%3A671&t=0lzeLFRDxMmlOE0G-1">View Project</button>
+      </div>
+
+       <!-- Duplicate project cards for seamless infinite scroll -->
+      <!-- Project Card 1 -->
+      <div class="project-card">
+        <img src="assets/books.svg" alt="Online Bookshop Website">
+        
+          <h4>Online Bookshop Website</h4>
+        
+        <p>A modern, responsive **online bookshop platform** built with React.js and Node.js. It features real-time book data via API integration, secure user login, and a smooth shopping experience. This project showcases my skills in frontend design, backend logic, and seamless UI/UX flow.
+        </p>
+        <button class="view-project-btn" data-github="https://github.com/Awishka-2002/Online-Bookshop/">View Project</button> 
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card">
+        <img src="assets/hotels.svg" alt="Hotel Management System">
+        
+          <h4>Hotel Management System</h4>
+        
+        <p>A team-developed hotel management web system using PHP, MySQL, HTML, and JavaScript, featuring room booking, user registration, billing, meal selection, and admin controls. Showcases collaboration and my contribution to creating user-friendly, functional modules.
+        </p>
+        <button class="view-project-btn" data-github="https://www.linkedin.com/posts/awishka-sevmini-4413a233a_webdevelopment-hotelmanagement-fullstackdevelopment-activity-7311366871528722433-bPvg?utm_source=share&utm_medium=member_android&rcm=ACoAAFUhffEBWihe7MdDplDlxwRFWSikLE5-Qjs">View Project</button> 
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="project-card">
+        <img src="assets/GAME.svg" alt="The Great Jerry Hunt">
+        
+          <h4>The Great Jerry Hunt</h4>
+        
+        <p>A fun and interactive browser-based game inspired by classic cartoon chases. Built using HTML, CSS, and JavaScript, this project highlights my creative approach to front-end development and animation. Players guide Jerry through a series of obstacles, making for an entertaining and responsive gameplay experience.</p>
+        <button class="view-project-btn" data-github="https://www.linkedin.com/posts/awishka-sevmini-4413a233a_gamedevelopment-javascript-frontend-activity-7311372996294701057-LNeo?utm_source=share&utm_medium=member_android&rcm=ACoAAFUhffEBWihe7MdDplDlxwRFWSikLE5-Qjs">View Project</button>
+      </div>
+
+      <!-- Project Card 4 -->
+      <div class="project-card">
+        <img src="assets/HR.svg" alt="Human Resource Management System">
+        
+          <h4>Human Resource Management System</h4>
+        
+        <p>A collaborative group project focused on developing a role-based HRM web application. Built with PHP and MySQL, it enables secure login, employee performance tracking, and attendance management. This project highlights our teamwork, backend logic, and practical use of databases in a real-world scenario</p>
+       <button class="view-project-btn" data-github="https://github.com/Awishka-2002/HR-Management-system">View Project</button>
+      </div>
+
+      <!-- Project Card 5 -->
+      <div class="project-card">
+        <img src="assets/SHOOL.svg" alt="Tuition Management System">
+        
+          <h4>Tuition Management System</h4>
+        
+        <p>A group mobile app project for our Mobile Computing course, featuring UI/UX design with Figma and development in Flutter. It includes class scheduling, registration, payments, and attendance tracking, with a clean, responsive interface for students and tutors.
+
+        </p>
+        <button class="view-project-btn" data-github="https://www.figma.com/proto/BX8lwOD1MlJ6v9VOPafS7K/Nenekra?page-id=0%3A1&team_id=1443829360333767894&node-id=17-671&starting-point-node-id=17%3A671&t=0lzeLFRDxMmlOE0G-1">View Project</button> 
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+  <section class="contact-section"id="contact">
+  <h2 class="section-title_02">Contact</h2>
+
+  <div class="intro-social-container">
+    <p class="intro-text">
+      Get in touch with me via social<br> media or send me an email.
+    </p>
+
+    <div class="social-box">
+      <div class="social-item">
+        <a href="https://web.facebook.com/profile.php?id=100088144526473">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" /></a>
+        <p>Facebook</p>
+        
+      </div>
+      <div class="social-item">
+        <a href="https://www.instagram.com/awishka_sevmini?igsh=MThweHRzdXRkMGRyag==">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" /></a>
+        <p>Instagram</p>
+        
+      </div>
+      <div class="social-item">
+         <a href="https://www.linkedin.com/in/awishka-sevmini-4413a233a/">
+        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" /></a>
+        <p>LinkedIn</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="email-title">Send me an email</h3>
+
+  <form action="https://formsubmit.co/awishkasevmini23@gmail.com" method="POST" class="email-form">
+    <div class="left-inputs">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+    </div>
+    <div class="right-input">
+      <textarea placeholder="Message" required></textarea>
+    </div>
+    <div class="submit-button">
+      <button type="submit">Send email</button>
+    </div>
+  </form>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Awishka Sevmini</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
