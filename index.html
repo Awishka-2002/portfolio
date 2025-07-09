@@ -7,6 +7,10 @@
   <title>Awishka Sevmini | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -114,7 +118,7 @@
         <span class="tag">Adobe Illustrator</span>
         <span class="tag">Problem Solving</span>
         <span class="tag">Creative Thinking</span>
-        <p>I enjoy blending creativity with structure. <br>Here are the tools and design<br>skills I use daily to build user-first experiences.</p>
+        <p>I enjoy blending creativity with structure. Here are the tools and design skills I use daily to build user-first experiences.</p>
       </div>
     </div>
 
@@ -137,7 +141,7 @@
       <span class="edu-year">2022 – 2026 (Present)</span></p>
 
       <p class="edu-p">
-        My university journey has equipped me with hands-on experience in UI/UX design, frontend development, and academic projects like HRM systems and e-commerce platforms. I’ve also collaborated in team projects using tools like Figma, React, and Flutter.
+        My university journey has equipped me with hands-on experience in UI/UX design, frontend development, and academic projects like HRM systems and e-commerce platforms. I’ve also collaborated in team projects using tools like Figma, React, and Android.
       </p>
       <div class="model-viewer-container">
   <model-viewer 
@@ -183,122 +187,74 @@
 
 
   <section class="my-work" id="projects">
-  <h1 >My Work</h1>
+  <h1>My Work</h1>
 
-  <div class="projects-scroll-container">
-    <div class="projects-track">
-      
-      <!-- Project Card 1 -->
-      <div class="project-card">
-        <img src="assets/books.svg" alt="Online Bookshop Website">
-        
-          <h4>Online Bookshop Website</h4>
-      
-        <p>A modern, responsive **online bookshop platform** built with React.js and Node.js. It features real-time book data via API integration, secure user login, and a smooth shopping experience. This project showcases my skills in frontend design, backend logic, and seamless UI/UX flow.
-        </p>
-        <button class="view-project-btn" data-github="https://github.com/Awishka-2002/Online-Bookshop/">View Project</button>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide project-card">
+        <img src="assets/books.svg" alt="Online Bookshop Website" />
+        <h4>Online Bookshop Website</h4><br>
+        <p>A modern, responsive online bookshop platform built with React.js and Node.js. It features real-time book data via API integration, secure user login, and a smooth shopping experience. 
+        This project showcases my skills in frontend design, backend logic, and seamless UI/UX flow.</p><br>
+        <button class="view-project-btn">View Project</button>
       </div>
 
-      <!-- Project Card 2 -->
-      <div class="project-card">
-        <img src="assets/hotels.svg" alt="Hotel Management System">
-        
-          <h4>Hotel Management System</h4>
-        
-        <p>A team-developed hotel management web system using PHP, MySQL, HTML, and JavaScript, featuring room booking, user registration, billing, meal selection, and admin controls. Showcases collaboration and my contribution to creating user-friendly, functional modules.</p>
-        <button class="view-project-btn" data-github="https://www.linkedin.com/posts/awishka-sevmini-4413a233a_webdevelopment-hotelmanagement-fullstackdevelopment-activity-7311366871528722433-bPvg?utm_source=share&utm_medium=member_android&rcm=ACoAAFUhffEBWihe7MdDplDlxwRFWSikLE5-Qjs">View Project</button>
+      <!-- Slide 2 -->
+      <div class="swiper-slide project-card">
+        <img src="assets/hotels.svg" alt="Hotel Management System" />
+        <h4>Hotel Management System</h4><br>
+        <p>A team-developed hotel management web system using PHP, MySQL, HTML, and JavaScript, featuring room booking, user registration, billing, meal selection, and admin controls. 
+        Showcases collaboration and my contribution to creating user-friendly, functional modules.</p><br>
+        <button class="view-project-btn">View Project</button>
       </div>
 
-      <!-- Project Card 3 -->
-      <div class="project-card">
-        <img src="assets/GAME.svg" alt="The Great Jerry Hunt">
-        
-          <h4>The Great Jerry Hunt</h4>
-        
-        <p>A fun and interactive browser-based game inspired by classic cartoon chases. Built using HTML, CSS, and JavaScript, this project highlights my creative approach to front-end development and animation. Players guide Jerry through a series of obstacles, making for an entertaining and responsive gameplay experience.</p>
-        <button class="view-project-btn" data-github="https://www.linkedin.com/posts/awishka-sevmini-4413a233a_gamedevelopment-javascript-frontend-activity-7311372996294701057-LNeo?utm_source=share&utm_medium=member_android&rcm=ACoAAFUhffEBWihe7MdDplDlxwRFWSikLE5-Qjs">View Project</button>
-      </div>
-
-      <!-- Project Card 4 -->
-      <div class="project-card">
-        <img src="assets/HR.svg" alt="Human Resource Management System">
-        
-          <h4>HR Management System</h4>
-        
-        <p>A collaborative group project focused on developing a role-based HRM web application. Built with PHP and MySQL, it enables secure login, employee performance tracking, and attendance management. This project highlights our teamwork, backend logic, and practical use of databases in a real-world scenario</p>
-        <button class="view-project-btn" data-github="https://github.com/Awishka-2002/HR-Management-system">View Project</button>
-      </div>
-
-      <!-- Project Card 5 -->
-      <div class="project-card">
-        <img src="assets/SHOOL.svg" alt="Tuition Management System">
-        
-          <h4>Tuition Management System</h4>
-        
+      <!-- Slide 3 -->
+      <div class="swiper-slide project-card">
+        <img src="assets/SCHOOL.svg" alt="Tuition Management System" />
+        <h4>Tuition Management System</h4><br>
         <p>A group mobile app project for our Mobile Computing course, featuring UI/UX design with Figma and development in Flutter. It includes class scheduling, registration, payments, and attendance tracking, with a clean, responsive interface for students and tutors.
-
-        </p>
-        <button class="view-project-btn" data-github="https://www.figma.com/proto/BX8lwOD1MlJ6v9VOPafS7K/Nenekra?page-id=0%3A1&team_id=1443829360333767894&node-id=17-671&starting-point-node-id=17%3A671&t=0lzeLFRDxMmlOE0G-1">View Project</button>
+        </p><br>
+        <button class="view-project-btn">View Project</button>
+      </div>
+      <!-- Slide 4 -->
+      <div class="swiper-slide project-card">
+        <img src="assets/Meditation.svg" alt="Mental health & Meditation App UI" />
+        <h4>Mental health & Meditation App UI</h4><br>
+        <p>A soothing, user-centered mobile app UI designed to promote mental wellness through guided meditation, mood tracking, and daily mindfulness routines. Crafted in Figma with a calming color palette, intuitive navigation,
+        and engaging visuals to support stress relief and emotional balance.</p><br>
+        <button class="view-project-btn">View Project</button>
       </div>
 
-       <!-- Duplicate project cards for seamless infinite scroll -->
-      <!-- Project Card 1 -->
-      <div class="project-card">
-        <img src="assets/books.svg" alt="Online Bookshop Website">
-        
-          <h4>Online Bookshop Website</h4>
-        
-        <p>A modern, responsive **online bookshop platform** built with React.js and Node.js. It features real-time book data via API integration, secure user login, and a smooth shopping experience. This project showcases my skills in frontend design, backend logic, and seamless UI/UX flow.
-        </p>
-        <button class="view-project-btn" data-github="https://github.com/Awishka-2002/Online-Bookshop/">View Project</button> 
+      <!-- Slide 5 -->
+      <div class="swiper-slide project-card">
+        <img src="assets/agent.svg" alt="Agent Sales & Collection App UI" />
+        <h4>Agent Sales & Collection App UI</h4><br>
+        <p>A sleek and functional mobile UI prototype designed for field agents to manage customer registrations, product sales, installment collections, 
+        and digital documentation. Built with a focus on usability, the design ensures quick navigation, e-signature capture, and seamless data entry — optimized for real-world on-the-go usage.</p><br>
+        <button class="view-project-btn">View Project</button>
       </div>
 
-      <!-- Project Card 2 -->
-      <div class="project-card">
-        <img src="assets/hotels.svg" alt="Hotel Management System">
-        
-          <h4>Hotel Management System</h4>
-        
-        <p>A team-developed hotel management web system using PHP, MySQL, HTML, and JavaScript, featuring room booking, user registration, billing, meal selection, and admin controls. Showcases collaboration and my contribution to creating user-friendly, functional modules.
-        </p>
-        <button class="view-project-btn" data-github="https://www.linkedin.com/posts/awishka-sevmini-4413a233a_webdevelopment-hotelmanagement-fullstackdevelopment-activity-7311366871528722433-bPvg?utm_source=share&utm_medium=member_android&rcm=ACoAAFUhffEBWihe7MdDplDlxwRFWSikLE5-Qjs">View Project</button> 
+      <!-- Slide 6 -->
+      <div class="swiper-slide project-card">
+        <img src="assets/HR.svg" alt="HR Management System" />
+        <h4>HR Management System</h4><br>
+        <p>A collaborative group project focused on developing a role-based HRM web application. Built with PHP and MySQL, it enables secure login, employee performance tracking, and attendance management. This project 
+        highlights our teamwork, backend logic, and practical use of databases in a real-world scenario</p><br>
+        <button class="view-project-btn">View Project</button>
       </div>
 
-      <!-- Project Card 3 -->
-      <div class="project-card">
-        <img src="assets/GAME.svg" alt="The Great Jerry Hunt">
-        
-          <h4>The Great Jerry Hunt</h4>
-        
-        <p>A fun and interactive browser-based game inspired by classic cartoon chases. Built using HTML, CSS, and JavaScript, this project highlights my creative approach to front-end development and animation. Players guide Jerry through a series of obstacles, making for an entertaining and responsive gameplay experience.</p>
-        <button class="view-project-btn" data-github="https://www.linkedin.com/posts/awishka-sevmini-4413a233a_gamedevelopment-javascript-frontend-activity-7311372996294701057-LNeo?utm_source=share&utm_medium=member_android&rcm=ACoAAFUhffEBWihe7MdDplDlxwRFWSikLE5-Qjs">View Project</button>
-      </div>
+      <!-- More slides... -->
 
-      <!-- Project Card 4 -->
-      <div class="project-card">
-        <img src="assets/HR.svg" alt="Human Resource Management System">
-        
-          <h4>Human Resource Management System</h4>
-        
-        <p>A collaborative group project focused on developing a role-based HRM web application. Built with PHP and MySQL, it enables secure login, employee performance tracking, and attendance management. This project highlights our teamwork, backend logic, and practical use of databases in a real-world scenario</p>
-       <button class="view-project-btn" data-github="https://github.com/Awishka-2002/HR-Management-system">View Project</button>
-      </div>
-
-      <!-- Project Card 5 -->
-      <div class="project-card">
-        <img src="assets/SHOOL.svg" alt="Tuition Management System">
-        
-          <h4>Tuition Management System</h4>
-        
-        <p>A group mobile app project for our Mobile Computing course, featuring UI/UX design with Figma and development in Flutter. It includes class scheduling, registration, payments, and attendance tracking, with a clean, responsive interface for students and tutors.
-
-        </p>
-        <button class="view-project-btn" data-github="https://www.figma.com/proto/BX8lwOD1MlJ6v9VOPafS7K/Nenekra?page-id=0%3A1&team_id=1443829360333767894&node-id=17-671&starting-point-node-id=17%3A671&t=0lzeLFRDxMmlOE0G-1">View Project</button> 
-      </div>
-      
     </div>
+
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
 </section>
+
 
   <section class="contact-section"id="contact">
   <h2 class="section-title_02">Contact</h2>
@@ -348,7 +304,10 @@
   <footer>
     <p>&copy; 2025 Awishka Sevmini</p>
   </footer>
+   
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
+ 
 </body>
 
 </html>
